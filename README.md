@@ -42,7 +42,7 @@ gcc -o echomidi EchoMidi_player_v01.c -lSDL2 -lSDL2_mixer -lm \
 ### Windows (MinGW)
 
 ```bash
-gcc -o echomidi.exe EchoMidi_player_v01.c -lmingw32 -lSDL2main -lSDL2 -lSDL2_mixer -lm
+x86_64-w64-mingw32-gcc -o echomidi.exe EchoMidi_player_v01.c -lmingw32 -lSDL2main -lSDL2 -lSDL2_mixer -lm
 ```
 
 **Windows Build Status:**  While the code includes Windows compatibility adaptations, a successful Windows build has **not yet been verified**.  Use the Windows compilation instructions with caution and report any issues.
