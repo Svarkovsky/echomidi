@@ -760,7 +760,7 @@ int main(int argc, char* argv[]) {
                     music = NULL;
                 }
 
-                current_index = (current_index + 1) % midi_list->count;
+                current_index = (current_index + 2) % midi_list->count;
                 printf("Next track\n");
             }
         }
