@@ -52,7 +52,7 @@ x86_64-w64-mingw32-gcc -o echomidi.exe EchoMidi_player_v01.c -lmingw32 -lSDL2mai
 1.  **SoundFont Bank:** Place a SoundFont file (.sf2) in the same directory as the executable. The player will automatically detect and use it.
     *   **Note:** The effect parameters in the code are currently tuned for the **"Nokia 3510.sf2"** MIDI bank. If you are using a different SoundFont, you may need to adjust the effect levels (reverb level, chorus level, etc.) directly within the `EchoMidi_player_v01.c` source code to achieve optimal results.
 
-2.  **MIDI Files:** Place MIDI files (.mid) in the same directory.
+2.  **MIDI Files:** Place MIDI files (.mid) in the same directory. Remember, every MIDI file has its owner. Please ensure you have the rights to play these files!
 3.  **Run the executable:** `./echomidi` (Linux) or `echomidi.exe` (Windows).
 
 ### Controls
